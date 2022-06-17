@@ -24,10 +24,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.quangggr8.ffmpegtest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "@config-plugins/ffmpeg-kit-react-native",
+        {
+          "package": "full"
+        }
+      ]
+    ]
   }
 }
